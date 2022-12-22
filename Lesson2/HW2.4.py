@@ -14,9 +14,15 @@
 # -> There are no values for these indexes!
 
 n = int(input("Введите число "))
-f1 = int(input("Индекс числа 1 "))
-f2 = int(input("Индекс числа 2 "))
+f1 = int(input("Индекс первого числа  "))
+f2 = int(input("Индекс второго числа "))
 
+array = []
 
+for i in range (- n, n + 1):
+    array.append(i)
+print(array)
 
+p = array[f1 - 1] * array[f2 - 1]
 
+print(p)
